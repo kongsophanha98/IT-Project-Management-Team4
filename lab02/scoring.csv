@@ -1,0 +1,8 @@
+criterion,weight,Build,Buy,Hybrid
+Learning value,30,5,1,4
+Cost,25,5,4,3
+Delivery time,25,3,5,4
+Requirements fit,20,5,3,4
+TOTAL WEIGHT,100,,,
+WEIGHTED SCORE,,=SUMPRODUCT($B$2:$B$5,C2:C5),=SUMPRODUCT($B$2:$B$5,D2:D5),=SUMPRODUCT($B$2:$B$5,E2:E5)
+PERCENT OF MAXIMUM,,=C6/(5*$B$6),=D6/(5*$B$6),=E6/(5*$B$6)
